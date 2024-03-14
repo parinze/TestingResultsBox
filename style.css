@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262a2f;
+    color: #555;
+}
+
+.search-container {
+    width: 600px;
+    background-color: #fff;
+    margin: 200px auto 0;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#searchIconButton {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+#searchIcon {
+    width: 30px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #555;
+    opacity: 1;
+}
+
+.results-container ul {
+    border-top: 1px solid #ddd;
+    padding: 15px 10px;
+}
+
+.results-container ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+/* On hover, change the background color */
+.results-container ul li:hover {
+    background-color: #1b87a2;
+    color: white;
+}
+
+.results-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#noResults {
+    border-top: 1px solid #ddd;
+    padding: 15px 10px;
+}
+
+#addAPatientButton {
+    background-color: #5696fc;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addAPatientContainer {
+    border-top: 1px solid #ddd;
+    padding: 15px 20px;
+}
